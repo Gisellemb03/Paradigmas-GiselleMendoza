@@ -22,9 +22,19 @@ using namespace std;
   double numbers[4] = { 4.5, 2.3, 7.2, 8.1};
 for (int i = 0; i<4; i++){
   
-cout << "Element at index" << i <<  " : " <<  numbers [i] << endl;
+cout << "Element at index" << i <<  " : " <<  numbers [i] <<  endl; 
  
-}   
- 
- return 0;
+int numberArray[8] = {};
+ for (int i=0; i>8; i++){
+ cout << "Element at index" << i << "i" << numberArray[i] << endl;
 }
+
+ //array string
+ string texts[] = {"Apple", "Banana", "orange"};
+ 
+ for (int i=0; i<3; i++) {
+ cout << "Element at index" << i << ":" << texts[i] << endl;
+}
+
+ return 0;
+}}
